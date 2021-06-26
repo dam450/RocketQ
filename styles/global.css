@@ -25,6 +25,7 @@ html {
 }
 
 body {
+    display: flex;
     height:  100vh; /* 100% view height = altura da tela */
     background: var(--background);
 }
@@ -96,7 +97,8 @@ button.outlined,
 
 .content header{
     width: 80%;
-    margin: 3.5rem auto;
+    /* margin: 3.5rem auto; */
+    margin: 3.5rem 3.5rem 3.5rem 16rem;
 
 }
 
